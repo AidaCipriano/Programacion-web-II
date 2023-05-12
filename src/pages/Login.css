@@ -1,0 +1,42 @@
+body{
+    font-family: 'Oswald', sans-serif !important;
+} 
+
+
+.gradient-custom {
+    /*background-image: url(https://vidauniversitaria.uanl.mx/wp-content/uploads/2019/11/encendido-del-pino-uanl-2019.jpg);*/
+    background-color: whitesmoke;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;  
+}
+
+.card-form{
+    background: rgb(126,206,244);
+    background: linear-gradient(-45deg, rgba(126,206,244,1) 0%, rgba(255,255,255,1) 32%, rgba(176,148,196,1) 66%, rgba(113,79,157,1) 100%);
+}
+
+.btn-form-login{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+
+.btn-form-login:hover{
+    transform: perspective(1px) scale3d(1.044, 1.044, 1) translateZ(0) !important;
+}
+
+.login-form-links{
+    color:  black;
+}

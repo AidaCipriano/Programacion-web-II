@@ -1,0 +1,9 @@
+#fileInputM{
+    display: none;
+}
+#iconM{
+    height: auto;
+
+    max-width: 50%;
+    cursor: pointer;
+}

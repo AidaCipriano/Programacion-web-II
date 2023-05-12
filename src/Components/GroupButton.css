@@ -1,0 +1,36 @@
+.bn39 {
+  background-color: #3e3c61;
+  text-align: center;
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  font-size: 1.4em;
+  font-weight: 600;
+  padding: 5%;
+  position: relative;
+  text-decoration: none;
+  width: 20rem;
+  z-index: 2;
+}
+
+.espacios{
+  background-color: #3e3c61;
+ height: 2vh;
+}
+
+.bn39:hover {
+  color: rgb(250, 48, 250);
+}
+
+.bn39 .bn39span {
+  
+  align-items: center;
+  background: white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
